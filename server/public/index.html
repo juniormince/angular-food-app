@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="vendors/angular.js"></script>
+    <script src="scripts/client.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food App</title>
+</head>
+<body>
+    <h1>Food App</h1>
+<div ng-app="FoodApp" ng-controller="FoodController as vm">
+
+{{vm.message}}
+
+        <input type="text" name="foodInput" ng-model="vm.message" placeholder="foooood"/>
+
+</div>
+
+    
+</body>
+</html>
